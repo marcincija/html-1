@@ -1,0 +1,38 @@
+* {
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.videosize {
+  width: 300px;
+  height: 600px;
+}
+
+.center {
+  width: 100%;
+  text-align: center;
+}
+
+.inlinediv {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+}
+
+.inlinediv:hover {
+  background: #000 !important;
+  transition: 600ms;
+  cursor: pointer;
+}
+
+.blockdiv {
+  width: 600px;
+  height: 200px;
+  display: block;
+}
+
+.blockdiv:hover {
+  background: rgb(255, 0, 0) !important;
+  transition: 600ms;
+  cursor: pointer;
+}
